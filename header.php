@@ -6,7 +6,8 @@
                 <div class="col-lg-6 col-md-8">
                     <div class="ht-widget">
                         <ul>
-                            <li><i class="fa fa-sun-o"></i> <span><?=((int) $response['main']['temp']);?><sup>c</sup></span> <?= $response['name'];?></li>
+                          <li><i class="fa fa-sun-o"></i> <span><?=((int) $response['main']['temp']);?><sup>c</sup></span> <?= $response['name'];?></li>
+
                             <li><i class="fa fa-clock-o"></i> <?php echo date("D j M, Y"); ?></li> <!-- CORRECT DATE -->
                             <li class="signup-switch signup-open"><i class="fa fa-sign-out">
                                     <?php
@@ -53,14 +54,12 @@
             <div class="nav-menu">
                 <ul>
                     <li><a href="./index.php"><span>Home </span></a></li>
-                    <li><a href="./gladiators.php"><span>Gladiators </span></a></li>
-                    <li><a href="./arenas.php"><span>Arenas </span></a></li>
-                    <li><a href="./types.php"><span>Fighting Styles </span></a></li>
+                    <li><a href="./gladiators_list.php"><span>Gladiators </span></a></li>
+                    <li><a href="./category.php"><span>Fighting Styles </span></a></li>
                     <li>
-                        <a href="#"><span>Admin <i class="fa fa-angle-down"></i></span></a>
+                    <li><a href="admin/index.php">Admin <i class="fa fa-angle-down"></i></a>
                         <ul class="dropdown">
-                            <li><a href="./users_crud.php">Users</a></li>
-                            <li><a href="./gladiators_crud.php">Gladiators</a></li>
+                            <li><a href="./gladiators_form.php">Gladiators</a></li>
                         </ul>
                     </li>
                 </ul>
