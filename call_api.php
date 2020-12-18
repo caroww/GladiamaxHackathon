@@ -1,6 +1,6 @@
 <?php
 
-$curl = curl_init();
+/* $curl = curl_init();
 
 curl_setopt_array($curl, [
     CURLOPT_URL => "https://community-open-weather-map.p.rapidapi.com/weather?q=Rome%2C%20it&id=2172797&lang=en&units=metric",
@@ -26,6 +26,6 @@ if ($err) {
     echo "cURL Error #:" . $err;
 } else {
     $response = json_decode($response, true);
-}
+} */
 
 

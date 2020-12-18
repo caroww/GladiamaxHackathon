@@ -4,25 +4,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-8">
-                    <div class="ht-widget">
-                        <ul>
-                          <li><i class="fa fa-sun-o"></i> <span><?=((int) $response['main']['temp']);?><sup>c</sup></span> <?= $response['name'];?></li>
+                    <!-- mettre le morceau API -->
 
-                            <li><i class="fa fa-clock-o"></i> <?php echo date("D j M, Y"); ?></li> <!-- CORRECT DATE -->
-                            <li class="signup-switch signup-open"><i class="fa fa-sign-out">
-                                    <?php
-                                    if ((isset($_SESSION['email']))) {
-                                        echo '<a href="disconnect.php" style="color: inherit;">Disconnect</a>';
-                                    }
-                                    ?>
-                                </i>
-                                <?php
-                                if (!(isset($_SESSION['email']))) {
-                                    echo "Sign up / Login";
-                                }
-                                ?>
-                        </ul>
-                    </div>
                 </div>
                 <div class="col-lg-6 col-md-4">
                     <div class="ht-social">
