@@ -1,8 +1,9 @@
-Thank you for using our template!
+# HACKATHON - Projet Gladiamax
 
-For more awesome templates please visit https://colorlib.com/wp/templates/
+## Sujet 
 
-Copyright information for the template can't be altered/removed unless you purchase a license.
-More information about the license is available here: https://colorlib.com/wp/licence/
+Création d'un site répondant à une problématique rencontrée dans le passé - Projet réalisé en 28h - Mise en place de CRUD 
 
-Removing copyright information without the license will result in suspension of your hosting and/or domain name(s).
+## Démonstration
+
+[Démo video](https://www.loom.com/share/7c2a480ddf4f4f46ad8e12be957ffa86?focus_title=1&muted=1&from_recorder=1)
